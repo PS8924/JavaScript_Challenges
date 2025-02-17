@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <h1>Enter Number</h1>
+    <input type="text" id="phone" maxlength="14" placeholder="(111)-222-6666" />
+
+    <script>
+      const phoneInput = document.getElementById('phone');
+      phoneInput.addEventListener('input', function (e) {
+            let value = phoneInput.value.replace(/\D/g, ''); // Remove all non-digit characters
+            
+        });
+    </script>
+  </body>
+</html>
